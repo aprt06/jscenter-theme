@@ -57,7 +57,11 @@ a:hover {
   color: #727272;
   line-height: 20px;
 }
+.cd-intro h1 span{
+  color:white;
+  background: rgba(0, 0, 0, 0.8);
 
+}
 .title {
   font-size: 30px;
   line-height: 1.1;
@@ -299,7 +303,7 @@ a:hover {
 #hero-area:before {
   content: '';
   z-index: 9;
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0);
   position: absolute;
   top: 0;
   left: 0;

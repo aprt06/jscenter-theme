@@ -6,35 +6,29 @@
 			{{ with .Site.Params.portfolio.title }}<h1 class="title wow fadeInDown" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
 			{{ with .Site.Params.portfolio.subtitle }}<p class="wow fadeInDown" data-wow-delay=".5s">{{ . }}</p>{{ end }}
 		</div>
-		<div class="row">
-			{{ range $index, $element:= where .Site.RegularPages "Type" "portfolio" }}
-			<div class="col-md-4 col-sm-6">
-				{{ $delay := mul $index 300 }}
-				<figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms"
-					data-wow-delay="{{ $delay }}ms">
-					<div class="img-wrapper">
-						<img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="this is a title">
-						<div class="overlay">
-							<div class="buttons">
-								<a rel="gallery" class="fancybox" href="{{ .Params.Image | relURL }}">Demo</a>
-								<a href="{{ .Permalink }}">Details</a>
-							</div>
-						</div>
-					</div>
-					<figcaption>
-						<h4>
-							<a href="{{ .Permalink }}">
-								{{ .Title }}
-							</a>
-						</h4>
-						<p>
-							{{ .Params.caption }}
-						</p>
-					</figcaption>
-				</figure>
-			</div>
-			{{ end }}
-		</div>
+		  <div class="row address-details">
+      <div class="col-lg-3 col-sm-6">
+        <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
+           {{ with . }}<h5>ดูชนิดประกันของลูกค้าจัดเตรียมเอกสารแล้วแจ้งไปยังบริษัทประกัน</h5>{{ end }}
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
+            {{ with . }}<h5>พาคนไข้ไปแผนกซักประวัติกับพยาบาลเข้าห้องตรวจ แจ้งนัด</h5>{{ end }}
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div data-wow-duration="500ms" data-wow-delay=".7s">
+            
+        {{ with .}}<h5>พาคนไข้ไปส่งที่การเงินเซ็นต์ใบเสร็จพาไปห้องยาคนไข้กลับบ้าน</h5>{{ end }}</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div  data-wow-duration="500ms" data-wow-delay=".9s">
+        {{ with . }}<h5>แสกนเอกสารจัดทำเอกสารเตรียมส่งบริษัทประกัน</h5>{{ end }}</p>
+        </div>
+      </div>
+    </div>
 	</div>
 </section>
 {{ "<!-- Portfolio Section End -->" | safeHTML }}
