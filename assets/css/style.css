@@ -402,6 +402,8 @@ a:hover {
 
 #about {
   padding: 110px 0;
+  background-color: #6c2827;
+  color:white;
 }
 
 #about .block {
@@ -416,7 +418,7 @@ a:hover {
 }
 
 #about .block p {
-  color: #727272;
+  color: white;
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 35px;
@@ -450,7 +452,11 @@ a:hover {
 
 .works {
   padding: 80px 0;
-  background: #FCFCFC;
+  background-color: #c49960;
+  color:white;
+}
+.works h1{
+  color:white;
 }
 
 .works .block {
@@ -609,12 +615,12 @@ figure figcaption p {
 }
 #feature .title{
   font-weight: 600;
-  color:#d24242
+  color:#c49961
 }
 
 #feature .media .media-heading{
   font-weight: 600;
-  color:#d24242
+  color:#c49961
 }
 
 #feature h3 {
@@ -818,7 +824,12 @@ article {
 
 #contact-section {
   padding: 90px 0;
+  background-color: #c49960;
 }
+#contact-section p{
+  color:black;
+}
+
 
 #contact-section .contact-form {
   margin-top: 42px;
@@ -1279,9 +1290,9 @@ article {
 }
 
 #footer {
-  background: #fff;
+  background: #a93736;
   padding: 25px 0;
-  color: #555;
+  color: white;
 }
 
 #footer .copyright {
