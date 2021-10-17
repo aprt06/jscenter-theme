@@ -1,0 +1,71 @@
+baseURL = "http://js-center.com/"
+languageCode = "en-us"
+title = "JSCENTER"
+theme = "jscenter"
+builddrafts = true 
+relativeURLs = true
+
+
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "Home"
+url     = "js-cetnter.com"
+weight  = 1
+ 
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "Japanese Support Center"
+description = ""
+# button
+# btn     = true
+# btnText = "Download More"
+# btnURL  = "https://themefisher.com/"
+
+# flip text
+[[params.banner.flipText]]
+title   = "ให้บริการล่ามทางการแพทย์"
+[[params.banner.flipText]]
+title   = "ดูแลประกันลูกค้าชาวญี่ปุ่น"
+[[params.banner.flipText]]
+title   = "ทีมงานที่มีประสบการณ์มากกว่า 4 ปี"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "เกี่ยวกับเรา"
+content = "บริษัทของเราให้บริการ Cashless ลูกค้าชาวญี่ปุ่นที่ถือประกันเดินทางของญี่ปุ่ น รวมถึงให้บริการลูกค้าในสิทธ์ิอื่นๆด้วย พนักงานทุกคนสื่อสารด้วยภาษาญี่ปุ่นได้ สามารถให้บริการล่ามทางการแพทย์ ณ สถานที่และทางโทรศัพท์นอกจากนี้ เรายังให้คำปรึกษากับคนไข้ที่เข้ามาติดต่อทางโทรศัพท์ด้วย (เฉพาะล่ามที่ถือใบประกอบวิชาชีพพยาบาล)"
+image   = "images/about/about.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "ติดต่อเรา"
+content = "Tel: 080-0115-923 <br>tanongsak@js-center.com "
+btnText = ""
+btnURL  = ""
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = true
+title   = "ขั้นตอนงานบริการของเรา"
+subtitle= ""
+
+

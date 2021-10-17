@@ -58,8 +58,8 @@ a:hover {
   line-height: 20px;
 }
 .cd-intro h1 span{
-  color:white;
-  background: rgba(0, 0, 0, 0.8);
+  color:#a93736;
+ 
 
 }
 .title {
@@ -101,7 +101,7 @@ a:hover {
 .social-share a {
   font-size: 20px;
   color: #fff;
-  background: #02bdd5;
+  background: #a93736;
   padding: 4px 10px;
   display: inline-block;
 }
@@ -142,7 +142,7 @@ a:hover {
   background-size: cover;
   padding: 120px 0 25px 0;
   position: relative;
-  background: #02bdd5;
+  background: #a93736;
   color: #fff;
 }
 
@@ -233,7 +233,7 @@ a:hover {
 }
 
 .navbar .nav-item .nav-link:hover {
-  color: #02bdd5 !important;
+  color: #a93736 !important;
 }
 
 .navbar .nav-item:last-child .nav-link {
@@ -279,7 +279,7 @@ a:hover {
 }
 
 .dropdown-item:hover {
-  color: #02bdd5 !important;
+  color: #a93736 !important;
   background: transparent;
 }
 
@@ -303,7 +303,7 @@ a:hover {
 #hero-area:before {
   content: '';
   z-index: 9;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -351,7 +351,7 @@ a:hover {
 }
 
 #call-to-action {
-  background: #02bdd5;
+  background: #a93736;
   background-size: cover;
   background-attachment: fixed;
   padding: 80px 0;
@@ -381,7 +381,7 @@ a:hover {
 #call-to-action .block .btn-contact {
   background: #fff;
   border: 2px solid #fff;
-  color: #02bdd5;
+  color: #a93736;
   padding: 15px 34px;
   margin-top: 20px;
   font-size: 12px;
@@ -397,7 +397,7 @@ a:hover {
 
 #call-to-action .block .btn-contact:hover {
   color: #fff;
-  background: #02bdd5;
+  background: #a93736;
 }
 
 #about {
@@ -437,7 +437,7 @@ a:hover {
 }
 
 .about-feature .about-feature-1 {
-  background: #02bdd5;
+  background: #a93736;
 }
 
 .about-feature .about-feature-2 {
@@ -568,8 +568,8 @@ figure .buttons {
 }
 
 figure .buttons a:hover {
-  background: #02bdd5;
-  border-color: #02bdd5;
+  background: #a93736;
+  border-color: #a93736;
 }
 
 figure .buttons a:focus {
@@ -587,7 +587,7 @@ figure figcaption h4 {
 }
 
 figure figcaption h4 a {
-  color: #02bdd5;
+  color: #a93736;
 }
 
 figure figcaption p {
@@ -627,7 +627,7 @@ figure figcaption p {
 #feature .icon {
   text-decoration: none;
   color: #fff;
-  background-color: #02bdd5;
+  background-color: #c49960;
   height: 100px;
   text-align: center;
   width: 100px;
@@ -639,12 +639,12 @@ figure figcaption p {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  text-shadow: #00a4ba 1px 1px, #00a4ba 2px 2px, #00a4ba 3px 3px, #00a4ba 4px 4px, #00a4ba 5px 5px, #00a4ba 6px 6px, #00a4ba 7px 7px, #00a4ba 8px 8px, #00a4ba 9px 9px, #00a4ba 10px 10px, #00a4ba 11px 11px, #00a4ba 12px 12px, #00a4ba 13px 13px, #00a4ba 14px 14px, #00a4ba 15px 15px, #00a4ba 16px 16px, #00a4ba 17px 17px, #00a4ba 18px 18px, #00a4ba 19px 19px, #00a4ba 20px 20px, #00a4ba 21px 21px, #00a4ba 22px 22px, #00a4ba 23px 23px, #00a4ba 24px 24px, #00a4ba 25px 25px, #00a4ba 26px 26px, #00a4ba 27px 27px, #00a4ba 28px 28px, #00a4ba 29px 29px, #00a4ba 30px 30px, #00a4ba 31px 31px, #00a4ba 32px 32px, #00a4ba 33px 33px, #00a4ba 34px 34px, #00a4ba 35px 35px, #00a4ba 36px 36px, #00a4ba 37px 37px, #00a4ba 38px 38px, #00a4ba 39px 39px, #00a4ba 40px 40px, #00a4ba 41px 41px, #00a4ba 42px 42px, #00a4ba 43px 43px, #00a4ba 44px 44px, #00a4ba 45px 45px, #00a4ba 46px 46px, #00a4ba 47px 47px, #00a4ba 48px 48px, #00a4ba 49px 49px, #00a4ba 50px 50px, #00a4ba 51px 51px, #00a4ba 52px 52px, #00a4ba 53px 53px, #00a4ba 54px 54px, #00a4ba 55px 55px, #00a4ba 56px 56px, #00a4ba 57px 57px, #00a4ba 58px 58px, #00a4ba 59px 59px, #00a4ba 60px 60px, #00a4ba 61px 61px, #00a4ba 62px 62px, #00a4ba 63px 63px, #00a4ba 64px 64px, #00a4ba 65px 65px, #00a4ba 66px 66px, #00a4ba 67px 67px, #00a4ba 68px 68px, #00a4ba 69px 69px, #00a4ba 70px 70px, #00a4ba 71px 71px, #00a4ba 72px 72px, #00a4ba 73px 73px, #00a4ba 74px 74px, #00a4ba 75px 75px, #00a4ba 76px 76px, #00a4ba 77px 77px, #00a4ba 78px 78px, #00a4ba 79px 79px, #00a4ba 80px 80px, #00a4ba 81px 81px, #00a4ba 82px 82px, #00a4ba 83px 83px, #00a4ba 84px 84px, #00a4ba 85px 85px, #00a4ba 86px 86px, #00a4ba 87px 87px, #00a4ba 88px 88px, #00a4ba 89px 89px, #00a4ba 90px 90px, #00a4ba 91px 91px, #00a4ba 92px 92px, #00a4ba 93px 93px, #00a4ba 94px 94px, #00a4ba 95px 95px, #00a4ba 96px 96px, #00a4ba 97px 97px, #00a4ba 98px 98px, #00a4ba 99px 99px, #00a4ba 100px 100px;
+  text-shadow: #af8041 1px 1px, #af8041 2px 2px, #af8041 3px 3px, #af8041 4px 4px, #af8041 5px 5px, #af8041 6px 6px, #af8041 7px 7px, #af8041 8px 8px, #af8041 9px 9px, #af8041 10px 10px, #af8041 11px 11px, #af8041 12px 12px, #af8041 13px 13px, #af8041 14px 14px, #af8041 15px 15px, #af8041 16px 16px, #af8041 17px 17px, #af8041 18px 18px, #af8041 19px 19px, #af8041 20px 20px, #af8041 21px 21px, #af8041 22px 22px, #af8041 23px 23px, #af8041 24px 24px, #af8041 25px 25px, #af8041 26px 26px, #af8041 27px 27px, #af8041 28px 28px, #af8041 29px 29px, #af8041 30px 30px, #af8041 31px 31px, #af8041 32px 32px, #af8041 33px 33px, #af8041 34px 34px, #af8041 35px 35px, #af8041 36px 36px, #af8041 37px 37px, #af8041 38px 38px, #af8041 39px 39px, #af8041 40px 40px, #af8041 41px 41px, #af8041 42px 42px, #af8041 43px 43px, #af8041 44px 44px, #af8041 45px 45px, #af8041 46px 46px, #af8041 47px 47px, #af8041 48px 48px, #af8041 49px 49px, #af8041 50px 50px, #af8041 51px 51px, #af8041 52px 52px, #af8041 53px 53px, #af8041 54px 54px, #af8041 55px 55px, #af8041 56px 56px, #af8041 57px 57px, #af8041 58px 58px, #af8041 59px 59px, #af8041 60px 60px, #af8041 61px 61px, #af8041 62px 62px, #af8041 63px 63px, #af8041 64px 64px, #af8041 65px 65px, #af8041 66px 66px, #af8041 67px 67px, #af8041 68px 68px, #af8041 69px 69px, #af8041 70px 70px, #af8041 71px 71px, #af8041 72px 72px, #af8041 73px 73px, #af8041 74px 74px, #af8041 75px 75px, #af8041 76px 76px, #af8041 77px 77px, #af8041 78px 78px, #af8041 79px 79px, #af8041 80px 80px, #af8041 81px 81px, #af8041 82px 82px, #af8041 83px 83px, #af8041 84px 84px, #af8041 85px 85px, #af8041 86px 86px, #af8041 87px 87px, #af8041 88px 88px, #af8041 89px 89px, #af8041 90px 90px, #af8041 91px 91px, #af8041 92px 92px, #af8041 93px 93px, #af8041 94px 94px, #af8041 95px 95px, #af8041 96px 96px, #af8041 97px 97px, #af8041 98px 98px, #af8041 99px 99px, #af8041 100px 100px;
 }
 
 .wrapper_404 h1 {
   font-size: 200px;
-  color: #02bdd5;
+  color: #a93736;
   line-height: 1;
 }
 
@@ -706,15 +706,15 @@ article {
 }
 
 .blog-content .btn-details {
-  color: #02bdd5;
+  color: #a93736;
   padding: 0;
-  background: #02bdd5;
+  background: #a93736;
   color: #fff;
   padding: 8px 18px;
   border-radius: 0;
   margin-top: 15px;
   border: 1px solid #fff;
-  box-shadow: 0px 0px 0px 1px #02bdd5;
+  box-shadow: 0px 0px 0px 1px #a93736;
 }
 
 .blog-post-image {
@@ -794,7 +794,7 @@ article {
 }
 
 .sidebar .recent-post ul li a:hover {
-  color: #02bdd5;
+  color: #a93736;
 }
 
 .sidebar .recent-post time {
@@ -818,9 +818,9 @@ article {
 #contact-section .contact-form .btn-send {
   color: #fff;
   outline: none;
-  background: #02bdd5;
+  background: #a93736;
   transition: all linear .2s;
-  border-color: #02bdd5;
+  border-color: #a93736;
   border-radius: 0;
 }
 
@@ -870,7 +870,7 @@ article {
 #contact-section .email i,
 #contact-section .phone i {
   font-size: 45px;
-  color: #02bdd5;
+  color: #a93736;
 }
 
 #contact-section .address h5,
@@ -955,7 +955,7 @@ article {
 }
 
 .single-post .media .media-body a {
-  color: #02bdd5;
+  color: #a93736;
   font-size: 12px;
 }
 
@@ -981,7 +981,7 @@ article {
 }
 
 .single-post .post-comment .btn-send {
-  background: #02bdd5;
+  background: #a93736;
   color: #fff;
   border-radius: 0;
 }
@@ -1033,7 +1033,7 @@ article {
 
 .btn-work {
   color: #fff;
-  background: #02bdd5;
+  background: #a93736;
   border-radius: 0;
 }
 
@@ -1047,7 +1047,7 @@ article {
 
 #product-showcase-banner .block h2 {
   font-size: 40px;
-  color: #02bdd5;
+  color: #a93736;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -1081,12 +1081,12 @@ article {
 }
 
 #product-showcase-banner .block .buttons .btn-buy {
-  background: #00AEDA;
-  border-bottom: 3px solid #0190B5;
+  background: #a93736;
+  border-bottom: 3px solid #a93736;
 }
 
 #product-showcase-banner .block .buttons .btn-buy:hover {
-  background: #0190B5;
+  background: #a93736;
 }
 
 #product-showcase-banner .block .buttons .btn-buy span {
@@ -1171,7 +1171,7 @@ article {
 
 #related-items .block h4 span {
   float: right;
-  color: #02bdd5;
+  color: #a93736;
 }
 
 #related-items .block .img-overly {
@@ -1212,7 +1212,7 @@ article {
 
 .service-page .service-parts .block i {
   font-size: 35px;
-  color: #02bdd5;
+  color: #a93736;
 }
 
 .service-page .service-parts .block p {
@@ -1248,7 +1248,7 @@ article {
 }
 
 .team-member h3 {
-  color: #02bdd5;
+  color: #a93736;
   margin-bottom: 0;
   font-size: 20px;
 }
@@ -1258,7 +1258,7 @@ article {
 }
 
 .team-member .social-icons a {
-  background: #02bdd5;
+  background: #a93736;
   color: #fff;
   padding: 4px 8px;
   display: inline-block;
@@ -1281,7 +1281,7 @@ article {
 }
 
 #footer .copyright a {
-  color: #02bdd5;
+  color: #a93736;
 }
 
 #footer .social {
@@ -1296,11 +1296,11 @@ article {
 
 #footer .social li a {
   font-size: 22px;
-  color: #02bdd5;
+  color: #a93736;
 }
 
 .cd-headline.slide .cd-words-wrapper {
-  color: #02bdd5;
+  color: #ffffff;
 }
 
 ul.social-icons {
