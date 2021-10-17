@@ -58,7 +58,7 @@ a:hover {
   line-height: 20px;
 }
 .cd-intro h1 span{
-  color:#a93736;
+  color:#fac40e;
  
 
 }
@@ -303,7 +303,7 @@ a:hover {
 #hero-area:before {
   content: '';
   z-index: 9;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   left: 0;
@@ -606,6 +606,15 @@ figure figcaption p {
 
 #feature .media .media-left {
   padding-right: 25px;
+}
+#feature .title{
+  font-weight: 600;
+  color:#d24242
+}
+
+#feature .media .media-heading{
+  font-weight: 600;
+  color:#d24242
 }
 
 #feature h3 {
