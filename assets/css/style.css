@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Glegoo);
-@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300,400,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+Thai);
 
 
 body {
-  font-family: "Noto Sans Thai", sans-serif;
+  font-family: 'Noto Sans Thai', sans-serif;
 }
 
 h1,
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Noto Sans Thai", sans-serif;
+  font-family: 'Noto Sans Thai', sans-serif;
 }
 
 h2 {
@@ -22,7 +22,7 @@ h2 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Noto Sans Thai', sans-serif;
   line-height: 22px;
   font-size: 16px;
   font-weight: 300;
@@ -826,12 +826,13 @@ article {
 
 #contact-section {
   padding: 90px 0;
-  background-color: #c49960;
+  color: #fff;
 }
-#contact-section p{
-  color:black;
+ 
+#contact-section p {
+  
 }
-
+ 
 
 #contact-section .contact-form {
   margin-top: 42px;
@@ -883,7 +884,7 @@ article {
 #contact-section .email,
 #contact-section .phone {
   text-align: center;
-  background: #F7F7F7;
+  background-color: #a93736;
   padding: 20px 0 40px 0;
   margin-bottom: 20px;
 }
@@ -892,7 +893,7 @@ article {
 #contact-section .email i,
 #contact-section .phone i {
   font-size: 45px;
-  color: #a93736;
+  color: #fff;
 }
 
 #contact-section .address h5,
