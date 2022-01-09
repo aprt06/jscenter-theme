@@ -879,6 +879,14 @@ article {
   box-shadow: none;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
+#contact-section {
+  background-color: #c49960;
+  padding: 90px 0;
+  color: #fff;
+}
+#contact-section p{
+  color: #fff;
+}
 
 #contact-section .address,
 #contact-section .email,
